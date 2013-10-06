@@ -3,6 +3,7 @@
 	"version": "0.0.0",
 	"dependencies": {
 		"angular": "~1.0.7",
+		"angular-ui-utils": "~0.0.4",
 		"angular-fire": "~0.3.0",
 		"todomvc-common": "~0.1.4"
 	}

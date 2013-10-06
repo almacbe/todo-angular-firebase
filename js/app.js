@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('todo', ['todo.config', 'todo.controllers', 'firebase'])
+angular.module('todo', ['todo.config', 'todo.controllers', 'firebase', 'ui.event'])
 	.config(['$routeProvider', function($routeProvider) {
      	$routeProvider.when('/', {
         	templateUrl: 'templates/all.html',
